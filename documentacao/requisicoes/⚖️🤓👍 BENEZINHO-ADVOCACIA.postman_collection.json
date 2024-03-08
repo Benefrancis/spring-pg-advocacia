@@ -1,0 +1,248 @@
+{
+	"info": {
+		"_postman_id": "6f3e8c00-a49e-4f47-8078-0385b7834406",
+		"name": "⚖️🤓👍 BENEZINHO-ADVOCACIA",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "1524675"
+	},
+	"item": [
+		{
+			"name": "ADVOGADO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/advogado",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"advogado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADVOGADO",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\": \"Bruno Sudré do Nascimento\",\r\n    \"numeroOAB\": \"56489\",\r\n    \"estado\": {\r\n        \"id\": 2\r\n        //  \"nome\" : \"Rio de Janeiro\",\r\n        // \"sigla\" : \"RJ\"\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/advogado",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"advogado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/estado",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/estado",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"estado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/estado",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"São Paulo\",\r\n    \"sigla\" : \"SP\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/estado",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"estado"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/tipo-de-acao",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/tipo-de-acao",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tipo-de-acao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/tipo-de-acao",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"nome\" : \"Penal\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/tipo-de-acao",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"tipo-de-acao"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/processo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"numero\": \"2024.01.19.2350-54\",\r\n    \"proBono\": false,\r\n    \"advogado\": {\r\n        \"id\": 1\r\n    },\r\n    \"tipoDeAcao\": {\r\n        \"id\": 1\r\n    }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost/processo",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"processo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/processo",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/processo",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"processo"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/processo/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/processo/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"processo",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost/estado/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/estado/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"estado",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ADVOGADO/1",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost/advogado/1",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"advogado",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
