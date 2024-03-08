@@ -7,7 +7,7 @@
 	},
 	"item": [
 		{
-			"name": "ADVOGADO",
+			"name": "advogado",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -24,7 +24,7 @@
 			"response": []
 		},
 		{
-			"name": "ADVOGADO",
+			"name": "advogado",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -50,7 +50,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/estado",
+			"name": "estado",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -67,7 +67,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/estado",
+			"name": "estado",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -93,7 +93,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/tipo-de-acao",
+			"name": "tipo-de-acao",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
@@ -122,7 +122,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/tipo-de-acao",
+			"name": "tipo-de-acao",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -148,7 +148,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/processo",
+			"name": "processo",
 			"request": {
 				"method": "POST",
 				"header": [],
@@ -174,7 +174,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/processo",
+			"name": "processo",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -191,7 +191,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/processo/1",
+			"name": "processo/{id}",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -209,7 +209,7 @@
 			"response": []
 		},
 		{
-			"name": "localhost/estado/1",
+			"name": "estado/{id}",
 			"request": {
 				"method": "GET",
 				"header": [],
@@ -227,7 +227,7 @@
 			"response": []
 		},
 		{
-			"name": "ADVOGADO/1",
+			"name": "advogado/{id}",
 			"request": {
 				"method": "GET",
 				"header": [],
