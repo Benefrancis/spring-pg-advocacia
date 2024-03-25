@@ -6,7 +6,7 @@ SIMULADO - **Java Advanced** aplicado em 05/03/2024.
 | ![](documentacao/fiap.jpg)               | **Java Advanced** |
 |------------------------------------------|-------------------|
 | **ALUNO:**                               | **TURMA:** 2TDSPG |
-| **PROFESSOR:** Benefrancis do Nascimento | 23/08/2023        |
+| **PROFESSOR:** Benefrancis do Nascimento | 05/03/2024        |
 | **SIMULADO**                      | ****              |
 
 # Sumário
@@ -173,7 +173,6 @@ git clone https://github.com/Benefrancis/spring-pg-advocacia && cd spring-pg-adv
 ```
 
 
-A avaliação é em dupla.
-
+A atividade é em dupla, não se esqueça de colocar o nome dos integrantes no arquivo contido em documentacao/equipe.txt. Em caso de fraude de qualquer tipo, todos os envolvidos receberão nota ZERO.
 
 Boa avaliação.
